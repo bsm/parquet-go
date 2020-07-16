@@ -1,5 +1,5 @@
-[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/kostya-sh/parquet-go/master/LICENSE)
-[![Build Status](https://travis-ci.org/kostya-sh/parquet-go.svg?branch=master)](https://travis-ci.org/kostya-sh/parquet-go)
+[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bsm/parquet-go/master/LICENSE)
+[![Build Status](https://travis-ci.org/bsm/parquet-go.svg?branch=master)](https://travis-ci.org/bsm/parquet-go)
 
 # parquet-go
 

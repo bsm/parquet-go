@@ -1,4 +1,4 @@
-module github.com/kostya-sh/parquet-go
+module github.com/bsm/parquet-go
 
 go 1.14
 
