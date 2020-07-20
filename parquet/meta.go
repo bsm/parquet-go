@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kostya-sh/parquet-go/parquetformat"
+	"github.com/bsm/parquet-go/parquetformat"
 )
 
 var magic = []byte{'P', 'A', 'R', '1'}

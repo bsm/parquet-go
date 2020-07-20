@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kostya-sh/parquet-go/parquetformat"
+	"github.com/bsm/parquet-go/parquetformat"
 )
 
 type cell struct {

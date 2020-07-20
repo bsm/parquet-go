@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kostya-sh/parquet-go/parquet"
+	"github.com/bsm/parquet-go/parquet"
 )
 
 var cmdMeta = &Command{

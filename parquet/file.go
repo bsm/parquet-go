@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/kostya-sh/parquet-go/parquetformat"
+	"github.com/bsm/parquet-go/parquetformat"
 )
 
 type File struct {
