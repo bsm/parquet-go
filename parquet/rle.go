@@ -64,6 +64,7 @@ func (d *rleDecoder) init(data []byte) {
 }
 
 func (d *rleDecoder) next() (next int32, err error) {
+
 	if d.rleCount == 0 && d.bpCount == 0 && d.bpRunPos == 0 {
 		if err = d.readRunHeader(); err != nil {
 			return 0, err
@@ -132,7 +133,7 @@ func decodeRLEValue(bytes []byte) int32 {
 }
 
 func (d *rleDecoder) readBitPackedRun() error {
-	if d.pos >= len(d.data) {
+	if d.pos > len(d.data) {
 		return errors.New("rle: not enough data to read bit-packed run")
 	}
 	pos := d.pos + d.bitWidth

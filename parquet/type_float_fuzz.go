@@ -2,8 +2,10 @@
 
 package parquet
 
-import "fmt"
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 func fuzzFloat(d valuesDecoder, data []byte, initCanFail bool) int {
 	const maxSize = 10000

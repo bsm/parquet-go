@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/golang/snappy"
 	"github.com/bsm/parquet-go/parquetformat"
+	"github.com/golang/snappy"
 )
 
 var (

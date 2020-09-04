@@ -6,6 +6,7 @@ package parquetformat
 import (
 	"bytes"
 	"fmt"
+
 	"github.com/bsm/parquet-go/parquetformat/internal/thrift"
 )
 
