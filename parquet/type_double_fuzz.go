@@ -2,8 +2,10 @@
 
 package parquet
 
-import "fmt"
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 func FuzzDoublePlain(data []byte) int {
 	const maxSize = 10000
